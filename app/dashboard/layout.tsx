@@ -11,7 +11,7 @@ export default function layout({
       <div className="md:w-64 hidden md:block fixed">
         <SideNav />
       </div>
-      <div className="ml-64">{children}</div>
+      <div className="md:ml-64">{children}</div>
     </div>
   );
 }
